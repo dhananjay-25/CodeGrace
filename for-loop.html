@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For-Loop</title>
+
+  <!-- Include Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+  <link rel="stylesheet" href="sidenav.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+        <a class="navbar-brand" href="index.html">Home</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="learn.html">Learning Videos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Topics</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="intro.html">Intro</a></li>
+                <li><a class="dropdown-item" href="started.html">started</a></li>
+                <li><a class="dropdown-item" href="syntax.html">syntax</a></li>
+                <li><a class="dropdown-item" href="datatype.html">data type</a></li>
+                <li><a class="dropdown-item" href="output.html">output</a></li>
+                <li><a class="dropdown-item" href="input.html">input</a></li>
+                <li><a class="dropdown-item" href="operator.html">operators</a></li>
+                <li><a class="dropdown-item" href="if-else.html">if-else</a></li>
+                <li><a class="dropdown-item" href="switch.html">switch</a></li>
+                <li><a class="dropdown-item" href="while.html">while</a></li>
+                <li><a class="dropdown-item" href="for-loop.html">for</a></li>
+                <li><a class="dropdown-item" href="loop_flow.html">Loop Flow</a></li>
+                <li><a class="dropdown-item" href="array.html">Array</a></li>
+                <li><a class="dropdown-item" href="2darray.html">2D Array</a></li>
+                <li><a class="dropdown-item" href="string.html">Strings</a></li>
+                <li><a class="dropdown-item" href="function.html">Functions</a></li>
+                <li><a class="dropdown-item" href="pointer.html">Pointers</a></li>
+              </ul>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+  </header>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-3 col-lg-2 bg-light sidebar" id="sidebar">
+        <!-- Sidebar content here -->
+        <div class="list-group">
+          <a href="intro.html" class="list-group-item list-group-item-action">Intro</a>
+          <a href="started.html" class="list-group-item list-group-item-action">Getting started</a>
+          <a href="syntax.html" class="list-group-item list-group-item-action">Syntax</a>
+          <a href="datatype.html" class="list-group-item list-group-item-action">Data Types</a>
+          <a href="output.html" class="list-group-item list-group-item-action">Printf</a>
+          <a href="input.html" class="list-group-item list-group-item-action">Scanf</a>
+          <a href="operator.html" class="list-group-item list-group-item-action">Operators</a>
+          <a href="if-else.html" class="list-group-item list-group-item-action">If-Else statements</a>
+          <a href="switch.html" class="list-group-item list-group-item-action">Switch</a>
+          <a href="while.html" class="list-group-item list-group-item-action">While loop</a>
+          <a href="for-loop.html" class="list-group-item list-group-item-action active" aria-current="true">For Loop</a>
+          <a href="loop_flow.html" class="list-group-item list-group-item-action">Control flow statements</a>
+          <a href="array.html" class="list-group-item list-group-item-action">Array</a>
+          <a href="2darray.html" class="list-group-item list-group-item-action">2D Array</a>
+          <a href="string.html" class="list-group-item list-group-item-action">Strings</a> 
+          <a href="function.html" class="list-group-item list-group-item-action">Functions</a>   
+          <a href="pointer.html" class="list-group-item list-group-item-action">Pointers</a>
+  
+      </nav>
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 main">
+        <!-- Main content here -->
+        <h1 class="text-center">For-Loop</h1>
+<div class="fs-5">
+    <p><strong>Welcome to the For Loop Tutorial!</strong><br>
+        In C programming, the for loop is a versatile and widely used control structure that allows you to execute a block of code repeatedly for a specific number of times. It's particularly useful when you know in advance how many iterations you want the loop to perform.</p>
+    <p><strong>Syntax:</strong><br>The basic syntax of the for loop is as follows:</p>
+    <p><pre>
+            <code class="language-c">
+                for (initialization; condition; increment/decrement) {
+                    // Code to be executed in each iteration
+                }
+                
+                                                 
+            </code>
+          </pre></p>
+    <ul>
+        <li>nitialization: This is where you initialize a loop control variable. It's typically used to set the starting point for the loop.</li>
+        <li>Condition: The loop will continue executing as long as this condition remains true. It's evaluated before each iteration.</li>
+        <li>Increment/Decrement: After each iteration, this part is executed. It usually updates the loop control variable, moving it closer to the termination condition.</li>
+    </ul>
+    <p><strong>Examples</strong><br>
+        Let's look at some examples to understand how the For loop works:</p>
+        <p>Example 1: Counting from 1 to 5
+            <pre>
+                <code class="language-c">
+                    #include &lt;stdio.h&gt;
+
+                        int main() {
+                            for (int i = 1; i <= 5; i++) {
+                                printf("%d ", i);
+                            }
+                        
+                            printf("\n");
+                        return 0;
+                        }                         </code>
+              </pre></p>
+        <p>Example 2: Calculating the sum of numbers
+        <pre>
+            <code class="language-c">
+                #include &lt;stdio.h&gt;
+
+                    int main() {
+                        int num, factorial = 1;
+
+                        printf("Enter a number: ");
+                        scanf("%d", &num);
+
+                        for (int i = 1; i <= num; i++) {
+                            factorial *= i;
+                        }
+
+                        printf("Factorial of %d is %d\n", num, factorial);
+                    return 0;
+                    }                             </code>
+            </pre></p>
+    <p>In the first example, the program uses a for loop to count from 1 to 5, printing each number on the screen. In the second example, it calculates the factorial of a given number using a for loop.</p>
+
+    <p><strong>Nested For Loops</strong></p>
+    <p>You can also use for loops within other for loops, creating nested loops. This is often used when you need to work with multidimensional data structures or perform a repetitive task with multiple levels of iteration.</p>
+    
+    </pre>
+    <p>Example of a nested for loop:
+      <pre>
+        <code class="language-c">
+            #include &lt;stdio.h&gt;
+
+            int main() {
+                for (int i = 1; i <= 3; i++) {
+                    for (int j = 1; j <= 3; j++) {
+                        printf("(%d, %d) ", i, j);
+                    }
+                    printf("\n");
+                }
+                return 0;
+            }                         </code>
+      </pre>
+      In this example, the nested for loop prints pairs of numbers in a grid-like format.</p>
+      <p><strong>Tips for Optimization:</strong></p>
+      <ul>
+        <li>Minimize loop iterations for better performance.</li>
+        <li>Avoid redundant calculations within the loop.</li>
+        <li>Choose the appropriate loop type based on the situation.</li>
+      </ul>
+      <p><strong>Putting It All Together: Real-world Example - Fibonacci Series:</strong>
+        <pre>
+            <code class="language-c">
+                #include &lt;stdio.h&gt;
+
+                int main() {
+                    int first = 0, second = 1, next;
+                    printf("Fibonacci Series: %d %d ", first, second);
+                    for (int i = 3; i <= n; i++) {
+                        next = first + second;
+                        printf("%d ", next);
+                        first = second;
+                        second = next;
+                    }
+                    return 0;
+                }                        
+             </code>
+          </pre>
+    </p>
+
+      <p><strong>Conclusion</strong></p>
+      <p>The for loop is an essential component of C programming, offering a controlled way to repeat a block of code. It's especially useful when you know the exact number of iterations required. Remember to initialize, set a termination condition, and handle the increment or decrement carefully to achieve the desired behavior.         
+      <br>Practice using the for loop in various scenarios to become proficient in leveraging its power in your programs. Happy coding!</p>
+    
+            
+</div>
+      </main> 
+    </div>
+    
+  </div>
+  
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+          hljs.highlightAll();
+      });
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <script>
+    const sidebar = document.getElementById("sidebar");
+
+    // Toggle the active class on the sidebar when the navbar-toggler is clicked
+    document.querySelector(".navbar-toggler").addEventListener("click", () => {
+      sidebar.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
+
+

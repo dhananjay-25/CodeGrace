@@ -1,0 +1,402 @@
+1.   {
+    snippet for ddisplaying code
+
+    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><foreignObject x="5%" y="5%" width="90%" height="90%">
+              <pre style="font-family: monospace;">
+                #include &lt;stdio.h&gt
+          
+                int main() {
+                  int num1 = 5, num2 = 7, sum;
+                  sum = num1 + num2;
+                  printf("The sum of %d and %d is %d", num1, num2, sum);
+                  return 0;
+              }
+            </pre>
+          </foreignObject>
+          <foreignObject x="5%" y="55%" width="90%" height="35%">
+            <pre style="font-family: monospace;">
+              The sum of 5 and 7 is 12
+            </pre>
+          </foreignObject>
+}
+2. this could also be used but it isnt working that  proper.{
+    <text x="5%" y="10%" fill="var(--bs-secondary-color)" font-family="monospace" font-size="20" style="white-space: pre;">
+    <![CDATA[
+      #include <stdio.h>
+
+      int main() {
+          int num1 = 5, num2 = 7, sum;
+          sum = num1 + num2;
+          printf("The sum of %d and %d is %d", num1, num2, sum);
+          return 0;
+      }
+    ]]>
+  </text>>
+}
+
+
+<iframe width="100%" height="225"  src="https://www.youtube.com/embed/videoseries?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="card-body">
+              <p class="card-text">This is a Complete  playlist on c programming by "Code with  Harry".</p>
+              <div class="d-flex justify-content-between align-items-center">
+      
+    _______  navbar..._____________________________________________________________________________________
+      <header>
+          <nav class="navbar bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+        </header>
+
+
+        ______--------Top Bar ___-----------____-------___________
+
+
+
+
+__________________________________________________INTRO___________________________________________________________
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro</title>
+  <link rel="stylesheet" href="sidenav.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="started.html">started</a></li>
+                <li><a class="dropdown-item" href="syntax.html">syntax</a></li>
+                <li><a class="dropdown-item" href="datatype.html">data type</a></li>
+                <li><a class="dropdown-item" href="output.html">output</a></li>
+                <li><a class="dropdown-item" href="input.html">input</a></li>
+                <li><a class="dropdown-item" href="operator.html">operators</a></li>
+                <li><a class="dropdown-item" href="if-else.html">if-else</a></li>
+                <li><a class="dropdown-item" href="switch.html">switch</a></li>
+                <li><a class="dropdown-item" href="while.html">while</a></li>
+                <li><a class="dropdown-item" href="for-loop.html">for</a></li>
+                <li><a class="dropdown-item" href="loop_flow.html">Loop Flow</a></li>
+                <li><a class="dropdown-item" href="array.html">Array</a></li>
+                <li><a class="dropdown-item" href="2darray.html">2D Array</a></li>
+                <li><a class="dropdown-item" href="string.html">Strings</a></li>
+                <li><a class="dropdown-item" href="function.html">Functions</a></li>
+              </ul>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+  </header>
+  
+  
+  
+  <div class="container-md-3-fluid mx-2 my-2 border text-dark ">
+    <div class="row">
+      <div class="col-md-3 border ">
+        
+        <!-- <div class="list-group">
+          <a href="intro.html" class="list-group-item list-group-item-action active" aria-current="true" >
+            Intro
+          </a>
+          <a href="started.html" class="list-group-item list-group-item-action">Getting started</a>
+          <a href="syntax.html" class="list-group-item list-group-item-action">Syntax</a>
+          <a href="datatype.html" class="list-group-item list-group-item-action">Data Types</a>
+          <a href="output.html" class="list-group-item list-group-item-action">Printf</a>
+          <a href="input.html" class="list-group-item list-group-item-action">Scanf</a>
+
+        </div> -->
+        <aside>
+          <p> Menu </p>
+          <a href="intro.html">
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+            Intro
+          </a>
+          <a href="while.html">
+            <i class="fa fa-laptop" aria-hidden="true"></i>
+            while
+          </a>
+          <a href="input.html">
+            <i class="fa fa-clone" aria-hidden="true"></i>
+            input
+          </a>
+          <a href="operator.html">
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            Operators
+          </a>
+          <a href="output.html">
+            <i class="fa fa-trash-o" aria-hidden="true"></i>
+            output
+          </a>
+        </aside>
+    </div>
+    <div class="col-md-9">
+      <h1 class="text-center">Introduction</h1>
+      <div class="fs-5 my-3">
+      <p><strong>Introduction to C Programming</strong></p>
+      <p>Welcome to the fascinating world of C programming, where creativity and logic converge to craft powerful and efficient software solutions. If you've ever been captivated by the magic of technology, then C is your gateway to understanding the inner workings of computers and unleashing your coding prowess.</p>
+      <p>As one of the most influential and time-tested programming languages, C has been the bedrock upon which countless modern applications, operating systems, and embedded systems have been built.</p>
+      <p><strong>Embark on an Exciting Adventure</strong></p>
+
+        <p>Stepping into C programming is like embarking on an exhilarating adventure, where you'll master the art of crafting elegant algorithms and turning complex problems into elegant lines of code. Whether you dream of developing cutting-edge applications, exploring the depths of cybersecurity, or delving into the world of game development, C equips you with the essential knowledge and flexibility to bring your visions to life.</p></div>
+    </div>
+  </div>
+      
+
+      
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+ <p><strong>Welcome to the While Loop Tutorial!</strong><br>
+            In C programming, the while loop is a powerful control structure that allows you to execute a block of code repeatedly as long as a specified condition remains true. It is useful when you want to repeat an operation until a certain condition is no longer met.</p>
+        <p><strong>The Syntax of the While Loop</strong><br>The basic syntax of the while loop is as follows:</p>
+        <p><pre>
+                <code class="language-c">
+                    while (condition) {
+                        // Code to be executed repeatedly as long as 'condition' is true
+                    }
+                                                     
+                </code>
+              </pre></p>
+        <p>The condition is evaluated before each iteration of the loop. If the condition is true, the code inside the loop will execute. After each iteration, the condition is evaluated again, and the loop continues to execute as long as the condition remains true. When the condition becomes false, the loop terminates, and the program continues with the next statement after the loop.</p>
+        <p>It's essential to ensure that the condition eventually becomes false; otherwise, you might end up with an infinite loop, causing the program to run indefinitely</p>
+        <p><strong>Examples</strong><br>
+            Let's look at some examples to understand how the while loop works:</p>
+            <p>Example 1: Counting from 1 to 5
+                <pre>
+                    <code class="language-c">
+                        #include &lt;stdio.h&gt;
+  
+                            int main() {
+                                int i = 1;
+  
+                                while (i <= 5) {
+                                    printf("%d ", i);
+                                    i++;
+                                }
+                            
+                                printf("\n");
+                            return 0;
+                            }                         </code>
+                  </pre></p>
+            <p>Example 2: Calculating the sum of numbers
+            <pre>
+                <code class="language-c">
+                    #include &lt;stdio.h&gt;
+  
+                        int main() {
+                            int num, sum = 0;
+  
+                            printf("Enter numbers (enter 0 to stop): ");
+                        
+                            while (1) {
+                                scanf("%d", &num);
+                                if (num == 0) {
+                                    break;
+                                }
+                                sum += num;
+                            }
+                        
+                            printf("The sum is: %d\n", sum);
+                        return 0;
+                        }                             </code>
+                </pre></p>
+        <p>In the first example, the program counts from 1 to 5 using the while loop, printing each number on the screen. In the second example, the program calculates the sum of a series of numbers entered by the user until they input 0 to stop the input process.</p>
+  
+        <p><strong>The Do-While Loop</strong></p>
+        <p>In addition to the while loop, there's another loop variant called the do-while loop. The do-while loop is similar to the while loop, but it guarantees that the code inside the loop will be executed at least once, regardless of whether the condition is initially true or false.</p>
+        <p><strong>The syntax of the do-while loop is as follows:</strong></p>
+        <pre>
+          <code class="language-c">
+            do {
+              // Code to be executed repeatedly
+          } while (condition);
+          
+          </code>
+        </pre>
+        <p>Example using do-while:
+          <pre>
+            <code class="language-c">
+                #include &lt;stdio.h&gt;
+  
+                int main() {
+                    int i = 1;
+                
+                    do {
+                        printf("%d ", i);
+                        i++;
+                    } while (i <= 5);
+                
+                    printf("\n");
+                    return 0;
+                }                         </code>
+          </pre>
+          In this example, the do-while loop will print the numbers from 1 to 5, just like the while loop.</p>
+          <p><strong>Conclusion</strong></p>
+          <p>The while loop is a fundamental construct in C programming, allowing you to create powerful, repetitive code. It's crucial to understand the loop condition and ensure that it eventually becomes false to avoid infinite loops. Remember, the do-while loop can be a handy alternative when you need to execute the loop's code at least once.
+  
+          <br>Keep practicing with different scenarios to become proficient in using the while loop effectively. Happy coding!</p>
+
+
+
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 main">
+        <!-- Main content here -->
+        <p><strong>Welcome to the While Loop Tutorial!</strong><br>
+          In C programming, the while loop is a powerful control structure that allows you to execute a block of code repeatedly as long as a specified condition remains true. It is useful when you want to repeat an operation until a certain condition is no longer met.</p>
+      <p><strong>The Syntax of the While Loop</strong><br>The basic syntax of the while loop is as follows:</p>
+      <p><pre>
+              <code class="language-c">
+                  while (condition) {
+                      // Code to be executed repeatedly as long as 'condition' is true
+                  }
+                                                   
+              </code>
+            </pre></p>
+      <p>The condition is evaluated before each iteration of the loop. If the condition is true, the code inside the loop will execute. After each iteration, the condition is evaluated again, and the loop continues to execute as long as the condition remains true. When the condition becomes false, the loop terminates, and the program continues with the next statement after the loop.</p>
+      <p>It's essential to ensure that the condition eventually becomes false; otherwise, you might end up with an infinite loop, causing the program to run indefinitely</p>
+      <p><strong>Examples</strong><br>
+          Let's look at some examples to understand how the while loop works:</p>
+          <p>Example 1: Counting from 1 to 5
+              <pre>
+                  <code class="language-c">
+                      #include &lt;stdio.h&gt;
+
+                          int main() {
+                              int i = 1;
+
+                              while (i <= 5) {
+                                  printf("%d ", i);
+                                  i++;
+                              }
+                          
+                              printf("\n");
+                          return 0;
+                          }                         </code>
+                </pre></p>
+          <p>Example 2: Calculating the sum of numbers
+          <pre>
+              <code class="language-c">
+                  #include &lt;stdio.h&gt;
+
+                      int main() {
+                          int num, sum = 0;
+
+                          printf("Enter numbers (enter 0 to stop): ");
+                      
+                          while (1) {
+                              scanf("%d", &num);
+                              if (num == 0) {
+                                  break;
+                              }
+                              sum += num;
+                          }
+                      
+                          printf("The sum is: %d\n", sum);
+                      return 0;
+                      }                             </code>
+              </pre></p>
+      <p>In the first example, the program counts from 1 to 5 using the while loop, printing each number on the screen. In the second example, the program calculates the sum of a series of numbers entered by the user until they input 0 to stop the input process.</p>
+
+      <p><strong>The Do-While Loop</strong></p>
+      <p>In addition to the while loop, there's another loop variant called the do-while loop. The do-while loop is similar to the while loop, but it guarantees that the code inside the loop will be executed at least once, regardless of whether the condition is initially true or false.</p>
+      <p><strong>The syntax of the do-while loop is as follows:</strong></p>
+      <pre>
+        <code class="language-c">
+          do {
+            // Code to be executed repeatedly
+        } while (condition);
+        
+        </code>
+      </pre>
+      <p>Example using do-while:
+        <pre>
+          <code class="language-c">
+              #include &lt;stdio.h&gt;
+
+              int main() {
+                  int i = 1;
+              
+                  do {
+                      printf("%d ", i);
+                      i++;
+                  } while (i <= 5);
+              
+                  printf("\n");
+                  return 0;
+              }                         </code>
+        </pre>
+        In this example, the do-while loop will print the numbers from 1 to 5, just like the while loop.</p>
+        <p><strong>Conclusion</strong></p>
+        <p>The while loop is a fundamental construct in C programming, allowing you to create powerful, repetitive code. It's crucial to understand the loop condition and ensure that it eventually becomes false to avoid infinite loops. Remember, the do-while loop can be a handy alternative when you need to execute the loop's code at least once.
+
+        <br>Keep practicing with different scenarios to become proficient in using the while loop effectively. Happy coding!</p>
+      </main>
